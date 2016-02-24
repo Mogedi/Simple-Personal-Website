@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="my_web.css">
+        <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+      integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+      crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
+      integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r"
+      crossorigin="anonymous">
+    <title>SUperMan</title>
+    
+  </head>
+  
+  <body>
+    
+    <!--1ST PAGE header-->
+    <header id="header">
+      <!--Centered Intro on Landing page-->
+      <div class="titleText" id=titleText>
+        <h1>Front-End Web Developer</h1>
+        <h4>Html, Css, BootStrap, Javascript, and Jquery</h4>
+        <hr>
+        <div class="btn-grouped" role="group" aria-label="...">
+          <button type="button" class="btn btn-default">
+            <a class="facebookLink"
+               href="https://www.facebook.com/mohamud.gedi.10">Facebook</a>
+          </button>
+          <button type="button" class="btn btn-default">
+            <a class="githubLink" href="https://github.com/Mogedi">GitHub</a>
+          </button>
+          <button type="button" class="btn btn-default">
+            <a class="linkedinLink"
+               href="https://www.linkedin.com/in/mohamud-gedi-03b96195?trk=nav_responsive_tab_profile_pic">LinkeDin</a>
+          </button>
+          <button type="button" class="btn btn-default">
+            <a class="fccLink"
+               href="http://www.freecodecamp.com/mogedi">FreeCodeCamp</a>
+          </button>
+        </div>
+      </div>
+      
+      
+      <!--Navigation-->
+      <nav class="navbar navbar-fixed-top navbar navbar-inverse">
+        <div class="container" id="container1">
+          
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Mohamud Gedi</a>
+          </div>
+          
+          <div class="collapse navbar-collapse" id="navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#header">Home</a></li>
+              <li><a href="#container2">About</a></li>
+              <li><a href="#container-fluid2">Portfolio</a></li>
+              <li><a href="#container-fluid3">Contact</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div> <!-- /.container-fluid -->
+      </nav>     
+    </header>
+    
+    
+    <!--2ND PAGE container-fluid-->
+    <div class=container-fluid id="container-fluid1">
+      <div class=container id="container2">
+        <div class=row>
+          <div class= pcontain>
+            <h3>About me</h3>
+            <p>I'm a self taught Front-End web developer.
+            I'm currently a freelance, working through Free Code Camps curriculum
+            and looking to work for experience in web applications. My passion
+            is to use technology based solutions, to help solve real world challenges.
+            <br><br>
+            Languages and Frameworks:Javascript, HTML5, CSS3, jQuery,
+            Bootstrap3, Python, Django.
+            <br><br>
+            Tools & expertise: Git, Responsive Web Design,
+            Agile Methodologies.</p>
+            
+          </div>
+          <div class=container id="pic-container">
+              <img src="mypic2" alt="My Picture" class=mypic>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <!--3RD PAGE container-fluid-->
+    <div class="container-fluid" id=container-fluid2>
+      <!--container-->
+      <div class="container" id="container3">
+        <!--head title-->
+        <div class=row>
+          <h1 class=portfolio-title>My Portfolio<hr></h1>
+        </div>
+        <!--all thumbnails row-->
+        <div class="row" id="thumbnail-row">
+          <!--1st thumbnail-->
+          <div class="col-xs-6 col-md-3" id="thumbnail-col">
+            <div class="thumbnail" id=thumbnail11>
+                <img src="http://static.dnaindia.com/sites/default/files/2015/09/15/373721-wikipedia1.png" alt="...">
+                  <div class="caption">
+                    <h4>Wikipedia Search Engine</h4>
+                    <p>...</p>
+                    <p><a href="#" class="btn btn-primary" role="button">Check Out</a>
+                    <a href="#" class="btn btn-default" role="button">Github</a></p>
+                  </div>
+            </div>
+          </div>
+          <!--2nd thumbnail-->
+          <div class="col-xs-6 col-md-3" id="thumbnail-col">
+            <div class="thumbnail" id=thumbnail12>
+                <img src="http://thesweetsetup.com/wp-content/uploads/2013/11/CheckTheWeather512.png" alt="...">
+                  <div class="caption">
+                    <h4>Weather App</h4>
+                    <p>...</p>
+                    <p><a href="#" class="btn btn-primary" role="button">Check Out</a>
+                    <a href="#" class="btn btn-default" role="button">Github</a></p>
+                  </div>
+            </div>
+          </div>
+          <!--3rd thumbnail-->
+          <div class="col-xs-6 col-md-3" id="thumbnail-col">
+            <div class="thumbnail" id=thumbnail13>
+                <img src="https://pbs.twimg.com/profile_images/509073338191183872/fYdty6yd.png" alt="...">
+                  <div class="caption">
+                    <h4>Twitch.tv Api Project</h4>
+                    <p>...</p>
+                    <p><a href="#" class="btn btn-primary" role="button">Check Out</a>
+                    <a href="#" class="btn btn-default" role="button">Github</a></p>
+                  </div>
+            </div>
+          </div>
+          <!--4th thumbnail-->
+          <div class="col-xs-6 col-md-3" id="thumbnail-col">
+            <div class="thumbnail" id=thumbnail14>
+                <img src="http://michaelcriner.com/wp-content/uploads/2013/06/QuotePostLogo.jpg" alt="...">
+                  <div class="caption">
+                    <h4>Quote Machine</h4>
+                    <p>...</p>
+                    <p><a href="#" class="btn btn-primary" role="button">Check Out</a>
+                    <a href="#" class="btn btn-default" role="button">Github</a></p>
+                  </div>
+            </div>
+          </div> <!--end of 4th thumbnail-->
+        </div> <!--end of all thumbnails rows-->
+      </div><!--end of container-->
+    </div><!--end of container-fluid-->
+    
+    
+    <!--4TH PAGE contact-->
+    <div class=container-fluid id="container-fluid3">
+      <div class=container id="container3">
+        <div class=row id=form-row>
+          <h1>Contact Me</h1>
+          <div class="input-group">
+            <label>Name:</label>
+            <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
+          </div>
+          
+          <div class="input-group">
+            <label>Email:</label>
+            <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon2">
+          </div>
+          
+          <div class="form-group">
+            <label for="comment">Message:</label>
+            <textarea class="form-control" rows="5" id="comment"></textarea>
+          </div>
+          <button type=Submit class="btn btn-default">Submit</button>
+          
+        </div>
+        <div class=row id=email-row>
+          <h2>Email me at Mahadgd94@gmail.com</h2>
+        </div>
+        
+        <div class="btn-grouped2" role="group" aria-label="...">
+          <button type="button" class="btn btn-default">
+            <a class="facebookLink"
+               href="https://www.facebook.com/mohamud.gedi.10">Facebook</a>
+          </button>
+          <button type="button" class="btn btn-default">
+            <a class="githubLink" href="https://github.com/Mogedi">GitHub</a>
+          </button>
+          <button type="button" class="btn btn-default">
+            <a class="linkedinLink"
+               href="https://www.linkedin.com/in/mohamud-gedi-03b96195?trk=nav_responsive_tab_profile_pic">LinkeDin</a>
+          </button>
+          <button type="button" class="btn btn-default">
+            <a class="fccLink"
+               href="http://www.freecodecamp.com/mogedi">FreeCodeCamp</a>
+          </button>
+        </div>
+        
+      </div>
+    </div>
+    
+    <!--LAST footer-->
+    <div class="navbar navbar-inverse navbar-static-bottom" role="navigation">
+      <div class=container>
+        <div class="navbar-text pull-left">
+          <p>@2016 Gedi's Website</p>
+        </div>
+      </div>
+    </div>
+      
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+        crossorigin="anonymous"></script>
+  </body>
+  
+</html>
